@@ -36,6 +36,7 @@ footer{
 }
 #Copyright{
     position: absolute;
+  
     bottom: 10px;
     
 }
@@ -90,7 +91,7 @@ ul {
       border-width: 1px;
       color: #cccccc;
       padding-bottom: 10%;
-      margin: 2%;
+      margin:  38px 0px 0px 125px;
       background-color: white;
       float: center;
       width: 800px;
@@ -99,13 +100,26 @@ ul {
     {border-style: solid;
         border-width: 1px;
         color: #cccccc;
-        padding-bottom: 10%;
-        margin: 2%;
+        padding-bottom: 102px;
+        margin: 48px 0px 0px 325px;
         background-color: white;
         float: center;
         width: 800px;
-        margin-left: 220px;
+        
     }
+
+    #card3 {
+        border-style: solid;
+        border-width: 1px;
+        color: #cccccc;
+        padding-bottom: 102px;
+        margin: 38px 0px 0px 325px;
+        background-color: white;
+        float: center;
+        width: 800px;
+
+    }
+
 
   #bodyCard
   {
@@ -137,6 +151,12 @@ ul {
         
      }
 
+    #nameText
+     {
+
+        padding: 25px 10px 15px 10px;
+     }
+
      header {
        
         width: 100%;
@@ -148,6 +168,7 @@ ul {
         
         font-family: 'Georgia', Times, 'Times New Roman', serif;
         color: #777777;
+        
     }
 
     #John {
@@ -155,6 +176,7 @@ ul {
         border: #cccccc;
         border-style: Solid;
         border-width: 1px;
+        color: black;
 
 
     }
@@ -162,6 +184,7 @@ ul {
         
         font-family: 'Georgia', Times, 'Times New Roman', serif;
         color: #777777;
+        
     }
 
     #Example {
@@ -169,6 +192,7 @@ ul {
         border: #cccccc;
         border-style: Solid;
         border-width: 1px;
+        color: black;
         
     }
 
@@ -183,11 +207,31 @@ ul {
         
         border: #cccccc;
         border-style: Solid;
-        height: 150px;
+        height: 18px;
         border-width: 1px;
+        color: black;
 
 
     }
+
+    #resumeLink {
+
+        border: #cccccc;
+        border-style: Solid;
+        height: 18px;
+        border-width: 1px;
+        color: black;
+}
+
+    #Linked {
+
+    border: #cccccc;
+    border-style: Solid;
+    height: 18px;
+    border-width: 1px;
+    color: black;
+
+}
     #button {
         
         background-color: #4aaaa5; 
@@ -236,6 +280,20 @@ ul {
         position:relative;
         width: 90%;
     }
+
+    /* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+
 
     
      
